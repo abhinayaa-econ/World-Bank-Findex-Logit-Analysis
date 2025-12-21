@@ -82,7 +82,7 @@ from informal to formal credit sources.
 - Targeted digital financial literacy initiatives are crucial
 - Gender-sensitive credit products may help reduce borrowing gaps
 
-## Limitation
+## Limitations
 - The analysis is based on cross-sectional survey data and identifies associations rather than
 causal effects.
 - Formal borrowing behaviour is self-reported & may be subject to reporting or recall bias.
@@ -102,11 +102,6 @@ of approximately 0.66 and the Hosmer–Lemeshow test, indicate adequate predicti
 findings highlight the positive role of digital access in promoting formal financial inclusion, while underscoring 
 the continued need for targeted policy interventions to address structural barriers.
 
-## Repository Structure
-- `code/` – Stata do-files for cleaning, estimation, margins, and diagnostics
-- `output/` – Regression tables and figures
-- `report/` – Full project report (PDF)
-
 ## Tools
 - Stata  
 - World Bank FINDEX
@@ -117,7 +112,6 @@ The analysis is fully reproducible using the following Stata do-files:
 - [`01_Data_cleaning.do`](code/01_Data_cleaning.do) – Data cleaning and variable construction  
 - [`02_Logit_and_margins.do`](code/02_Logit_and_margins.do) – Logit estimation and marginal effects  
 - [`03_Model_diagnostics.do`](code/03_Model_diagnostics.do) – Multicollinearity, ROC curve, and goodness-of-fit tests  
-
 ## Full Report
 The complete project report, including data description, methodology, results,
 policy implications, and limitations, is available here:
@@ -126,5 +120,5 @@ policy implications, and limitations, is available here:
 
 ## Author
 **Abhinayaa Kumar Subramanian**  
-MSc Applied Economics
-National University of Singapore
+- MSc Applied Economics
+- National University of Singapore
