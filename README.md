@@ -122,7 +122,7 @@ The analysis is fully reproducible using the following Stata do-files:
 The complete project report, including data description, methodology, results,
 policy implications, and limitations, is available here:
 
-📄 [Applied Econometric Analysis using Logistic Regression – PDF](report/Logit_Analysis_Stata_Abhinayaa.pdf)
+📄 [Applied Econometric Analysis using Logistic Regression – PDF](report/Logit_Anlaysis_Stata_Abhinayaa.pdf)
 
 ## Author
 **Abhinayaa Kumar Subramanian**  
