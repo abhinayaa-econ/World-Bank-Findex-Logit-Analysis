@@ -1,0 +1,16 @@
+# Stata temporary files
+*.log
+*.smcl
+*.tmp
+*.dta~
+
+# Autosave / backup files
+*~
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output folders (optional – if large)
+output/
