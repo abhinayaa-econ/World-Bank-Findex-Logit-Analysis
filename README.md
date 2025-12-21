@@ -41,12 +41,13 @@ from informal to formal credit sources.
 - Robust standard errors to account for heteroskedasticity
 - Interpretation via **Average Marginal Effects**
 
-**Model diagnostics include**
-- Wald chi-square test  
-- Pseudo R-squared  
-- Variance Inflation Factors (VIF)  
+**Model diagnostics include** 
+- Pseudo R-squared
+- Wald chi-square test   
 - Hosmer–Lemeshow goodness-of-fit test  
 - ROC curve and Area Under the Curve (AUC)
+- Variance Inflation Factors (VIF)
+- Coefficient 
 
 ## Key Findings
 - Digital access significantly increases the probability of formal borrowing.
@@ -61,11 +62,45 @@ from informal to formal credit sources.
 - The model demonstrates moderate discriminatory power (**AUC ≈ 0.66**) and acceptable fit (H-L test
   has a p-value ≈ 0.22 > 0.01).
 
+## Key Outputs
+
+### Logit Regression Results
+![Logit Results](output/tables/Logit_results.png)
+
+### Average Marginal Effects
+![Marginal Effects](output/tables/Marginal_effects.png)
+
+### ROC Curve
+![ROC Curve](output/figures/ROC_curve.png)
+
+### Coefficient Plot (Log-Odds)
+![Coefficient Plot](output/figures/Coef_plot.png)
+
 ## Policy Implications
 - Expanding digital infrastructure can improve access to formal credit
 - Early financial touchpoints (e.g., credit cards) act as gateways to broader financial inclusion
 - Targeted digital financial literacy initiatives are crucial
 - Gender-sensitive credit products may help reduce borrowing gaps
+
+## Limitation
+- The analysis is based on cross-sectional survey data and identifies associations rather than
+causal effects.
+- Formal borrowing behaviour is self-reported & may be subject to reporting or recall bias.
+- Although the model includes key factors affecting formal credit, other factors like
+psychological biases and cultural preferences have not been added, raising the possibility
+of omitted variable bias.
+- Informal and cash-dependent borrowers may be underrepresented in the survey data,
+potentially underestimating issues faced by financially underserved populations.
+
+## Conclusion
+Using individual-level World Bank FINDEX data, this project applies a logistic regression framework 
+to study formal borrowing behaviour. The results show that digital access—particularly internet usage 
+and digital payment adoption—significantly increases the probability of borrowing from formal credit sources, 
+even after controlling for income and education. Credit card ownership emerges as the strongest predictor of 
+formal borrowing, while notable gaps persist across demographic groups. Model diagnostics, including an ROC AUC 
+of approximately 0.66 and the Hosmer–Lemeshow test, indicate adequate predictive performance. Overall, the 
+findings highlight the positive role of digital access in promoting formal financial inclusion, while underscoring 
+the continued need for targeted policy interventions to address structural barriers.
 
 ## Repository Structure
 - `code/` – Stata do-files for cleaning, estimation, margins, and diagnostics
@@ -75,6 +110,19 @@ from informal to formal credit sources.
 ## Tools
 - Stata  
 - World Bank FINDEX
+
+## Code
+The analysis is fully reproducible using the following Stata do-files:
+
+- [`01_Data_cleaning.do`](code/01_Data_cleaning.do) – Data cleaning and variable construction  
+- [`02_Logit_and_margins.do`](code/02_Logit_and_margins.do) – Logit estimation and marginal effects  
+- [`03_Model_diagnostics.do`](code/03_Model_diagnostics.do) – Multicollinearity, ROC curve, and goodness-of-fit tests  
+
+## Full Report
+The complete project report, including data description, methodology, results,
+policy implications, and limitations, is available here:
+
+📄 [Applied Econometric Analysis using Logistic Regression – PDF](report/Logit_Analysis_Stata_Abhinayaa.pdf)
 
 ## Author
 **Abhinayaa Kumar Subramanian**  
