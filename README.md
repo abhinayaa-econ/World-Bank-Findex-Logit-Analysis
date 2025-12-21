@@ -49,14 +49,17 @@ from informal to formal credit sources.
 - ROC curve and Area Under the Curve (AUC)
 
 ## Key Findings
-- Digital access significantly increases the probability of formal borrowing
+- Digital access significantly increases the probability of formal borrowing.
 - Credit card ownership has the strongest effect, increasing formal borrowing
-  probability by approximately **21 percentage points**
+  probability by approximately **21 percentage points**.
 - Internet access and digital payment usage raise borrowing likelihood
-  by around **7 percentage points**
-- Higher education and income levels are positively associated with formal credit use
-- Women are less likely to borrow formally than men, controlling for other factors
-- The model demonstrates moderate discriminatory power (**AUC ≈ 0.66**) and acceptable fit
+  by around **7 percentage points**.
+- Higher education and income levels are positively associated with formal credit use.
+- Formal borrowing increases with age for younger individuals, peaking at middle-age and starts to 
+  decline at higher ages.  
+- Women are less likely to borrow formally than men, controlling for other factors.
+- The model demonstrates moderate discriminatory power (**AUC ≈ 0.66**) and acceptable fit (H-L test
+  has a p-value ≈ 0.22 > 0.01).
 
 ## Policy Implications
 - Expanding digital infrastructure can improve access to formal credit
@@ -75,4 +78,5 @@ from informal to formal credit sources.
 
 ## Author
 **Abhinayaa Kumar Subramanian**  
-MSc Applied Economics, National University of Singapore
+MSc Applied Economics
+National University of Singapore
