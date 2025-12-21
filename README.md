@@ -65,7 +65,7 @@ from informal to formal credit sources.
 ## Key Outputs
 
 ### Logit Regression Results
-![Logit Results](output/tables/Logit_results.png)
+<img src="output/figures/ROC_curve.png" width="500">
 
 ### Average Marginal Effects
 ![Marginal Effects](output/tables/Marginal_effects.png)
