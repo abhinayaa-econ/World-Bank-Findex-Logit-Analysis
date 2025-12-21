@@ -65,16 +65,16 @@ from informal to formal credit sources.
 ## Key Outputs
 
 ### Logit Regression Results
-<img src="output/figures/ROC_curve.png" width="500">
+<img src="output/tables/Logit_results.png" width="700">
 
 ### Average Marginal Effects
-![Marginal Effects](output/tables/Marginal_effects.png)
+<img src="output/tables/Marginal_effects.png" width="700">
 
 ### ROC Curve
-![ROC Curve](output/figures/ROC_curve.png)
+<img src="output/figures/ROC_curve.png" width="500">
 
 ### Coefficient Plot (Log-Odds)
-![Coefficient Plot](output/figures/Coef_plot.png)
+<img src="output/figures/Coef_plot.png" width="500">
 
 ## Policy Implications
 - Expanding digital infrastructure can improve access to formal credit
