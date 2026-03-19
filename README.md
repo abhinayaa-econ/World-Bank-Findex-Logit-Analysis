@@ -1,4 +1,4 @@
-# Digital Access and Formal Borrowing Decisions  
+# Digital Access and Formal Credit Behaviour
 ### Logit Analysis using World Bank FINDEX Microdata (Stata)
 
 ## Overview
