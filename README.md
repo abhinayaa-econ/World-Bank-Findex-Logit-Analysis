@@ -4,11 +4,11 @@
 ## Overview
 This project analyses how digital access, education, income, and demographic factors
 influence an individual’s likelihood of borrowing from formal financial institutions.
-Using individual-level survey data from the World Bank Global FINDEX (2021),
-a logistic regression (Logit) framework is applied to model formal borrowing behaviour.
+Using individual-level survey data from the World Bank Global FINDEX Dataset(2021),
+a logistic regression framework is applied to model formal borrowing behaviour.
 
-The study focuses on whether digital financial tools act as a gateway
-from informal to formal credit sources.
+The study focuses on whether digital financial tools and internet access act as a gateway
+to transition from informal to formal credit borrowing.
 
 ## Data
 - **Source:** World Bank Global FINDEX Database (2021)
