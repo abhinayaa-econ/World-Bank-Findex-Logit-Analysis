@@ -12,12 +12,11 @@ from informal to formal credit sources.
 
 ## Data
 - **Source:** World Bank Global FINDEX Database (2021)
-- **Coverage:** ~145,000 individuals across 139 economies
+- **Coverage:** 145,000 individuals across 139 economies
 - **Nature:** Cross-sectional, nationally representative survey data
 
 **Dependent variable**
-- Formal borrowing  
-  (1 = borrowed from formal institutions, 0 = informal sources)
+- Formal borrowing  (1 = borrowed from formal institutions, 0 = informal sources)
 
 **Key explanatory variables**
 - Internet access  
